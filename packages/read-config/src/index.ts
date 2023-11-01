@@ -3,6 +3,6 @@
  * @author wjh90201@gmail.com
  */
 
-export const TEST = "test";
+export const TEST = 'test';
 
-export const Success = "success";
+export const Success = 'success';
