@@ -1,0 +1,26 @@
+root: true
+parser: "@typescript-eslint/parser"
+env:
+  es6: true
+  node: true
+  commonjs: true
+  mocha: true
+extends:
+  - "eslint-config-airbnb-base"
+plugins:
+  - "@typescript-eslint/eslint-plugin"
+  - "import"
+parserOptions:
+  project: "./tsconfig.json"
+rules:
+  comma-dangle:
+    - 2
+    - only-multiline
+  no-confusing-arrow: 0
+  react/jsx-no-bind: 0
+  react-hooks/exhaustive-deps: 0
+  # react/jsx-filename-extension:
+  #   - 1,
+  #   - extensions:
+      # - ".ts"
+      # - ".tsx"
