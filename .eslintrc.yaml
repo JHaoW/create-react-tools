@@ -19,8 +19,3 @@ rules:
   no-confusing-arrow: 0
   react/jsx-no-bind: 0
   react-hooks/exhaustive-deps: 0
-  # react/jsx-filename-extension:
-  #   - 1,
-  #   - extensions:
-      # - ".ts"
-      # - ".tsx"
