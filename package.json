@@ -2,7 +2,7 @@
   "name": "create-react-tools",
   "version": "1.0.0",
   "description": "create react project tools",
-  "main": "index.js",
+  "type": "module",
   "scripts": {
     "postinstall": "simple-git-hooks",
     "test": "echo \"Error: no test specified\" && exit 1",
