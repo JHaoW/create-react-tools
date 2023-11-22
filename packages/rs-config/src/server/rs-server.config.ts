@@ -15,17 +15,17 @@ const serverDefaultConf = {
     cache: {
         enable: true,
         // 参考koa-cash
-        options: {}
+        options: {},
     },
 
     // 是否开启CSP
     enableCSP: false,
 
     // 应用路由前缀
-    appDomain: commonConfig.domain,
+    domain: commonConfig.domain,
 
     // 页面模板路径
-    appTemplate: '<APP_ROOT>/views/index.app.ejs',
+    appTemplate: '<APP_ROOT>/client/views/index.ejs',
 
     // routes file path
     appRoutes: '<APP_ROOT>/src/routes.js',
@@ -46,7 +46,7 @@ const serverDefaultConf = {
     middlewareFile: '<APP_ROOT>/server/middleware.js',
 
     // 路径简写
-    alias: commonConfig.alias
+    alias: commonConfig.alias,
 };
 
 export type ServerDefaultConf = typeof serverDefaultConf;
