@@ -9,6 +9,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc"
   },
+  "bin": {
+    "tools": "./bin/rs-tools"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",

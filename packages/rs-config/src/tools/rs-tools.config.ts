@@ -43,7 +43,7 @@ const toolsDefaultConfig = {
         base: {} as Configuration,
         dev: {} as Configuration,
         prod: {} as Configuration,
-        server: {} as Configuration
+        server: {} as Configuration,
     },
 
     devServer: {
@@ -54,7 +54,7 @@ const toolsDefaultConfig = {
         host: '0.0.0.0',
 
         // proxy 相关
-        proxy: 'http://0.0.0.1:8888/'
+        proxy: 'http://0.0.0.1:8888/',
     },
 };
 

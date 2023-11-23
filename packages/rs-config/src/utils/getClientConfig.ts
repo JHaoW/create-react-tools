@@ -22,7 +22,7 @@ const readModuleFile = (filePath: string) => {
     const context = {
         require,
         module,
-        exports
+        exports,
     };
 
     // 在当前上下文中执行文件内容
@@ -39,7 +39,7 @@ const getClientConfigFilePath = (cwd: string, filename: string) => {
     if (!fs.existsSync(cwd)) {
         throw new Error(
             'Can\'t find a root directory while resolving a config file path.\n'
-                + `Provided path to resolve: ${cwd}`
+                + `Provided path to resolve: ${cwd}`,
         );
     }
     const projectConfig = path.resolve(cwd, filename);
