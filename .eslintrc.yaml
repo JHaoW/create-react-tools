@@ -32,6 +32,13 @@ rules:
   object-curly-spacing:
     - error
     - never
+  import/order:
+    - error
+    - groups:
+      - ['builtin', 'external']
+      - ['internal', 'sibling', 'parent', 'index']
+      - 'unknown'
+      newlines-between: always
   no-confusing-arrow: 0
   react/jsx-no-bind: 0
   react-hooks/exhaustive-deps: 0
@@ -40,5 +47,8 @@ rules:
   arrow-parens: 0
   no-shadow: 0
   no-console: 0
+  no-mixed-operators: 0
+  object-curly-newline: 0
+  lines-between-class-members: 0
   import/prefer-default-export: 0
   import/no-extraneous-dependencies: 0
