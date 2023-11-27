@@ -6,6 +6,7 @@
 import _ from 'lodash';
 import {readFileSync} from 'fs';
 import {resolve} from 'path';
+
 import {toolsConfig} from '../constants';
 
 const appDir = process.cwd();

@@ -5,6 +5,7 @@
 
 import chalk from 'chalk';
 import webpack from 'webpack';
+
 import webpackProdConfig from '../config/webpack.prod.config';
 
 // 开始编译

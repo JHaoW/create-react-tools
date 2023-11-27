@@ -4,6 +4,7 @@
  */
 
 import {merge} from 'lodash';
+
 import getClientConfig from '../utils/getClientConfig';
 import getConfConfig from '../utils/getConfConfig';
 import defaultServerConfig from './rs-server.config';

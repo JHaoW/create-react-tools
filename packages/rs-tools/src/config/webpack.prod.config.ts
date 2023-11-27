@@ -7,6 +7,7 @@ import CssMinimizerPlugin from 'css-minimizer-webpack-plugin';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
 import {merge} from 'webpack-merge';
 import {Configuration} from 'webpack';
+
 import COMMON_CONFIG from './webpack.common.config';
 import {toolsConfig} from '../constants';
 

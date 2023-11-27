@@ -6,6 +6,7 @@
 import {merge} from 'webpack-merge';
 import {Configuration} from 'webpack';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
+
 import COMMON_CONFIG from './webpack.common.config';
 import {getHtmlContent} from '../utils';
 import {toolsConfig} from '../constants';

@@ -6,6 +6,7 @@
 import webpack, {Configuration} from 'webpack';
 import MiniCssExtractPlugin from 'mini-css-extract-plugin';
 import CompressionPlugin from 'compression-webpack-plugin';
+
 import BabelConfig from '../constants/babel';
 import {toolsConfig} from '../constants';
 

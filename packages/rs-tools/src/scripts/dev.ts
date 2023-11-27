@@ -6,6 +6,7 @@
 import chalk from 'chalk';
 import webpack from 'webpack';
 import WebpackDevServer from 'webpack-dev-server';
+
 import webpackConfig from '../config/webpack.dev.config';
 
 const compiler = webpack(webpackConfig);
